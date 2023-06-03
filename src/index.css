@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.wrapper{
+  background: white;
+  width: 20rem;
+  padding: 2rem;
+  margin-top: 4rem;
+  border-radius: 1rem;
+  box-shadow: 20px 30px 10px 0px rgba(0,0,0,0.1);
+}
+
+.screen{
+  height: 4rem;
+  margin-bottom: 4rem;
+}
+
+.buttonBox{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+}
+
+.button{
+  background: white;
+  height: 3.5rem;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: black;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.button:hover{
+  border: 2px dotted black;
+}
+
+.equals{
+  background: rgb(73, 73, 190);
+  grid-column: 3/5;
+}
+
+.opt{
+  background: grey;
+}
